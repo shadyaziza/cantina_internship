@@ -1,4 +1,4 @@
-package com.example.cantinatest;
+package com.example.cantina_internship;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

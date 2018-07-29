@@ -1,4 +1,4 @@
-# cantinatest
+# cantina_internship
 
 A new Flutter project.
 
