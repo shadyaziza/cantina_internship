@@ -28,15 +28,19 @@ class DatePickerTask extends StatelessWidget {
   }
 
   _generateNextDays(DateTime startingDate) {
+    print(startingDate);
      final int days = 5; //Test with 5,15,20
 
     //Implment your task in this function
-    //Study [DateTime] class from here
+    //If you need to, the docs for [DateTime] class from here:
+    //  https://api.dartlang.org/stable/2.0.0/dart-core/DateTime-class.html
+
+
     //generate a list of DateTime based on the [startingDate] value
     //the list should contain all days after the [startingDate] value
     //the list should NOT contain fridays and saturdays
     //your code must be working with 5 days, 15 days or 20 days
-    //for example if days=5 your and the startingDate is 30/8/2018,
+    //for example if days=5  and the startingDate is 30/8/2018,
     //your list should have the four next days after the starting date,
     //while skippig fridays and saturdays
 
