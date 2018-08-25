@@ -30,6 +30,10 @@ class DatePickerTask extends StatelessWidget {
   _generateNextDays(DateTime startingDate) {
     print(startingDate);
      final int days = 5; //Test with 5,15,20
+     final List<DateTime> dates = [];
+     //Now our list has the starting date
+     dates.add(startingDate);
+
 
     //Implment your task in this function
     //If you need to, the docs for [DateTime] class from here:
@@ -41,7 +45,7 @@ class DatePickerTask extends StatelessWidget {
     //the list should NOT contain fridays and saturdays
     //your code must be working with 5 days, 15 days or 20 days
     //for example if days=5  and the startingDate is 30/8/2018,
-    //your list should have the next four days after the starting date,
+    //your list be populated with the next four days after the starting date,
     //while skippig fridays and saturdays
       
     //Your list will have 5, 15 or 20 items for each test case of [days]
