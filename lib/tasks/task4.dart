@@ -41,9 +41,9 @@ class DatePickerTask extends StatelessWidget {
     //the list should NOT contain fridays and saturdays
     //your code must be working with 5 days, 15 days or 20 days
     //for example if days=5  and the startingDate is 30/8/2018,
-    //your list should have the four next days after the starting date,
+    //your list should have the next four days after the starting date,
     //while skippig fridays and saturdays
-
+      
     //Your list will have 5, 15 or 20 items for each test case of [days]
   }
 }
