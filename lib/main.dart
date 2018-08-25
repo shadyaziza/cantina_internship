@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:scoped_model/scoped_model.dart';
+import './tasks/task2.dart';
+import './tasks/task4.dart';
 
-void main() => runApp(new MyApp());
+void main() => runApp(new DatePickerTask());
 
 class StateModel extends Model {
   int _counter = 0;
