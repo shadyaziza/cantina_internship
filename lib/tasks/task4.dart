@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DatePickerTask extends StatelessWidget {
-  final int days = 5; //Test with 5,15,20
+ 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -28,9 +28,11 @@ class DatePickerTask extends StatelessWidget {
   }
 
   _generateNextDays(DateTime startingDate) {
-    //Implment your task in this function
+     final int days = 5; //Test with 5,15,20
 
-    //generate a list of days based on the [startingDate] value
+    //Implment your task in this function
+    //Study [DateTime] class from here
+    //generate a list of DateTime based on the [startingDate] value
     //the list should contain all days after the [startingDate] value
     //the list should NOT contain fridays and saturdays
     //your code must be working with 5 days, 15 days or 20 days
@@ -38,6 +40,6 @@ class DatePickerTask extends StatelessWidget {
     //your list should have the four next days after the starting date,
     //while skippig fridays and saturdays
 
-    //Your list will have 5, 15 or 20 items for each test case for days
+    //Your list will have 5, 15 or 20 items for each test case of [days]
   }
 }
