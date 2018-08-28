@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 import './tasks/task2.dart';
+
+import './tasks/task5.dart';
 import './tasks/task4.dart';
 
-void main() => runApp(new DatePickerTask());
+void main() => runApp(MaterialApp(home:TicTacToe()));
 
 // class StateModel extends Model {
 //   int _counter = 0;
